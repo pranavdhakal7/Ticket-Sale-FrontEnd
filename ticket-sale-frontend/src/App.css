@@ -1,0 +1,131 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Welcoming Message */
+.welcome-message {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* App Title */
+.app-title {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Ticket Price Info */
+.ticket-price-info {
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+/* Connect Button */
+.connect-button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.connect-button:hover {
+  background: #45a049;
+}
+
+/* Transaction Section */
+.transaction-section,
+.manager-section {
+  margin-bottom: 20px;
+}
+
+.transaction-section input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.transaction-section button {
+  padding: 8px 16px;
+  background: #008cba;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.transaction-section button:hover {
+  background: #005f8d;
+}
+
+/* Transaction Messages */
+.message {
+  color: #d9534f;
+  font-weight: bold;
+}
+
+/* Transactions History */
+.transactions-history {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transaction {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Transaction Date */
+.transaction-date {
+  color: #888;
+  font-size: 12px;
+}
+
+/* Transaction Amount */
+.transaction-amount {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Feature Enhancements */
+.success-message {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.error-message {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #666;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}

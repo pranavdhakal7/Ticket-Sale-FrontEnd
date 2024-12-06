@@ -1,0 +1,9 @@
+const decodedEvent = web3.eth.abi.decodeLog(
+  [
+    { indexed: true, name: "buyer", type: "address" },
+    { indexed: false, name: "ticketId", type: "uint256" }
+  ],
+  result.logs[0].data,
+  result.logs[0].topics.slice(1) // Remove the first topic (event signature)
+);
+setMessage(`Purchase successful! Your Ticket ID is: ${decodedEvent.ticketId} (Buyer: ${decodedEvent.buyer})`);
